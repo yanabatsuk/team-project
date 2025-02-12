@@ -1,6 +1,6 @@
-# student full name: Yana Batsuk
+# student full name: Yana Batsuk and Bita
 # student id: 801302794
-# who did you work with? I worked by myself.
+# who did you work with?
 
 
 # class named BankAccount
