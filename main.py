@@ -43,6 +43,7 @@ print("\n--- Checking Account Operations ---")
 
 # Display account details
 checking1.print_account_information()
+print("\n") # for clearer reading
 checking2.print_account_information()
 
 # Performing transactions
