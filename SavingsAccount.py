@@ -14,7 +14,7 @@ class Savings(BankAccount):
     def add_savings(self, amount):
         self.savings_balance += amount
         self.customer_balance += amount
-        print(f"${amount} added to savings. New savings balance: {self.savings_balance}. Total balance: ${self.customer_balance}.")
+        print(f"${amount} added to {self.customer_name} savings. New savings balance: {self.savings_balance}. Total balance: ${self.customer_balance}.")
 
     # method to apply interest
     def apply_interest(self):

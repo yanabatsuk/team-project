@@ -1,5 +1,4 @@
 # student's full name: Yana Batsuk and Bita Ghaffari
-# student id: 801302794
 # worked together as partners
 
 from BankAccount import BankAccount
@@ -64,30 +63,30 @@ checking2.print_account_information()
 
 # Bita's Checking Account Work (end here)
 
+# Yana's Savings Account Work (start here)
 print("\n--- new test below! for savings account ---")
 
-# Yana's Savings Account Work (start here)
 # creating instances of SavingsAccount
 savings1 = Savings("Hailey Parker", 25000, 500, 5000, 0.02, "13243546", "908978685")
 
 savings2 = Savings("Joey Waters", 10000, 250, 2500, 0.03, "36475869", "807958732")
 
-
-#running tests for savings class; with both instances
-print("\n--- Savings Account Operations ----")
 savings1.print_account_information()
+print("\n") # for clearer reading
+savings2.print_account_information()
+
+# performing operations on Savings accounts
+print("\nPerforming transactions...\n")
+
 savings1.add_savings(500)
 savings1.apply_interest()
-print("\n") # for cleaner separation and easier reading the output
 
-savings2.print_account_information()
+print("\n") # for clearer reading
+
 savings2.add_savings(1000)
 savings2.apply_interest()
-print("\n") # for cleaner separation and easier reading the output
 
-#showing Final Account Details
 print("\n---Final Account Detail (Savings) ----")
 savings1.print_account_information()
-print("\n") # for cleaner separation and easier reading the output
+print("\n") # for clearer reading
 savings2.print_account_information()
-# Yana's Savings Account Work (end here)
