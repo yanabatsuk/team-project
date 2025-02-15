@@ -6,8 +6,8 @@ class Savings(BankAccount):
         super().__init__(customer_name, customer_balance, minimum_balance)
         self.savings_balance = savings_balance #savings account balance
         self.interest_rate = interest_rate # interest rate for savings
-        self.account_number = account_number # protected number
-        self.routing_number = routing_number # private number
+        self._account_number = account_number # protected number
+        self.__routing_number = routing_number # private number
 
 
     # method to add savings deposit
@@ -28,4 +28,4 @@ class Savings(BankAccount):
         self.print_customer_information()  # calls the inherited method
         print(f"Savings Balance: {self.savings_balance}")
         print(f"Interest Rate: {self.interest_rate * 100}%")
-        print(f"Account Number: {self.account_number}")
+        print(f"Account Number: {self._account_number}")
