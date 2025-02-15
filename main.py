@@ -57,4 +57,3 @@ bank_account2.deposit(1000)
 bank_account2.withdraw(500)
 bank_account2.withdraw(10000) # should invoke the error message
 
-print("hi yana")
