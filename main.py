@@ -3,7 +3,7 @@
 # who did you work with? my partner, Bita
 from BankAccount import BankAccount
 from SavingsAccount import Savings
-#from CheckingAccount import CheckingAccount
+from CheckingAccount import CheckingAccount
 
 # creating the at least two instances that are need, to make sure the class works
 bank_account1 = BankAccount("Josiah Joel", 40321, 25000)
