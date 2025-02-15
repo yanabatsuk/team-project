@@ -1,6 +1,7 @@
 # CheckingAccount.py
+from BankAccount import BankAccount
 
-from main import BankAccount
+
 class CheckingAccount(BankAccount):
     def __init__(self, customer_name, customer_balance, minimum_balance, account_number, routing_number, transfer_limit=1000):
         # Initialize parent class
